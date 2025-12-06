@@ -1,0 +1,99 @@
+/* ====== GENERAL RESET ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ====== BODY STYLING ====== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #faf6ef;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ====== HEADER ====== */
+header {
+    text-align: center;
+    background:rgb(212, 70, 56);
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+/* ====== SECTION STYLING ====== */
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.08);
+}
+
+/* Headings inside section */
+section h2, section h3 {
+    margin-bottom: 12px;
+    color: rgb(212, 70, 56);
+}
+
+/* ====== FLEX LAYOUT FOR DETAILS ====== */
+.details-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.details-list li {
+    background: #fff0e6;
+    padding: 10px 15px;
+    border-radius: 6px;
+    list-style: none;
+}
+
+/* ====== INGREDIENTS & INSTRUCTIONS ====== */
+ul, ol {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* ====== IMAGE ====== */
+section img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    transition: transform 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.03);
+}
+
+/* ====== LINKS ====== */
+a {
+    color: #d44638;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* ====== NOTES  ====== */
+.notes {
+    border-left: 4px solid #d44638;
+    padding-left: 15px;
+    background-color: #ffffff;
+    
+}
+
